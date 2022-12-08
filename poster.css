@@ -8,6 +8,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
+main {
+  background-color: #0d98ba;
+}
 a {
   color: inherit;
 }
@@ -159,6 +162,7 @@ main figure figcaption {
   margin-top: 0.5rem;
 }
 article {
+  text-align: center;
   align-content: stretch;
   align-items: center;
   background: #eeeeec;
@@ -170,8 +174,9 @@ article {
   padding: 0 0.5rem 0.5rem 0.5rem;
 }
 article > header {
-  background: #2e3436;
-  color: #fcaf3e;
+  font-style: italic;
+  background: #000000;
+  color: #ffffff;
   margin: 0 -0.5rem 0 -0.5rem;
   padding: 0.25rem 0.5rem;
 }
